@@ -1,3 +1,5 @@
+[![CI](https://github.com/Ibrahim-56/Automated_Test_Suite/actions/workflows/playwright.yml/badge.svg)](https://github.com/Ibrahim-56/Automated_Test_Suite/actions/workflows/playwright.yml)
+
 # Automated Test Suite
 
 Playwright and TypeScript end-to-end test for a standard purchase flow on the public SauceDemo sample application.
