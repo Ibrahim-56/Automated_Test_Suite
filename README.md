@@ -31,7 +31,7 @@ Show the browser while tests run:
 npx playwright test --headed
 ```
 
-The GitHub Actions workflow runs the suite on pushes and pull requests targeting `main`, then uploads the HTML report when available.
+The GitHub Actions workflow runs the suite on pushes and pull requests targeting `main`, then uploads the HTML report when available. A recent run passed: [view run](https://github.com/Ibrahim-56/Automated_Test_Suite/actions/runs/40076083327).
 
 ## Scope
 
