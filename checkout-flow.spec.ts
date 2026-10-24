@@ -10,6 +10,7 @@ test('Complete checkout with 3 random items', async ({ page }) => {
   await expect(page).toHaveURL(/inventory.html/);
 
   const items = page.locator('.inventory_item');
+  await expect(items.first()).toBeVisible();
   const itemCount = await items.count();
   expect(itemCount).toBeGreaterThanOrEqual(3);
 
